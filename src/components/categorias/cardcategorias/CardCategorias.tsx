@@ -34,7 +34,7 @@ function CardCategorias({ categoria }: CardCategoriasProps) {
           </button>
         </Link>
 
-        <Link to={`/deletarcategoria/${categoria.id}`} className="flex-grow">
+        <Link to={`/deletarcategorias/${categoria.id}`} className="flex-grow">
           <button
             type="button"
             className="w-full flex items-center justify-between py-1.5 px-5 rounded-lg font-medium text-white bg-gradient-to-r from-rose-500 to-red-600 hover:brightness-90 transition-all shadow-sm"

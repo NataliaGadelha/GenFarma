@@ -75,6 +75,15 @@ function FormCategorias() {
 
             <form className="w-1/2 flex flex-col gap-4" onSubmit={enviarCategoria}>
                 <div className="flex flex-col gap-2">
+                    <label htmlFor="descricao">Nome da Categoria</label>
+                    <input
+                        type="text"
+                        placeholder="Descreva aqui sua categoria"
+                        name="nome"
+                        className="border-3 border-menta rounded p-2 focus:outline-none focus:border-ligth-green focus:ring-2 focus:ring-ligth-green"
+                        value={categoria.nome}
+                        onChange={atualizarEstado}
+                    />
                     <label htmlFor="descricao">Descrição da Categoria</label>
                     <input
                         type="text"
