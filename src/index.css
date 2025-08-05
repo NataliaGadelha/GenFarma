@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+    --color-preto: #0C090D;
+    --color-azul-claro: #8CC9D2;
+    --color-azul-medio: #1976D2;
+    --color-vermelho: #CB292D;
+    --color-vermelho-imperial: #e5383b;
+    --color-vermelho-light: #E5383B;
+    --color-vermelho-claro: #ff4d6d;
+    --color-cinza: #555555;
+}
+
+@theme {  --font-display: "Oswald", sans-serif; }
