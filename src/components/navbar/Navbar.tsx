@@ -6,7 +6,7 @@ function Navbar() {
     <div className="w-full flex justify-center py-4
     bg-vermelho-claro text-white">
         <div className="container flex justify-between text-lg">
-            <Link to='/home' className="flex gap-1 items-center text-4xl font-bold font-cookie">
+            <Link to='/home' className="flex gap-1 items-center text-4xl font-cookie">
                                 <img
                                     src="https://img.icons8.com/?size=100&id=V17Aey338PDh&format=png&color=FFFFFF"
                                     alt="ícone"

@@ -6,7 +6,7 @@ function Home() {
             <div className="bg-cyan-300 flex justify-center">
                 <div className='container grid grid-cols-2 text-white'>
                     <div className="flex flex-col gap-4 items-center justify-center py-4">
-                        <h2 className='text-8xl font-bold font-cookie'>
+                        <h2 className='text-8xl font-cookie'>
                             GenFarma
                         </h2>
                         <p className='text-4xl justify-center font-cookie'>

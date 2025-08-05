@@ -6,10 +6,11 @@ function Footer() {
         <>
             <div className="flex justify-center bg-vermelho-claro text-white">
                 <div className="container flex flex-col items-center py-4">
-                    <p className='text-xl font-bold'>
-                            GenFarma Natália Gadelha | Copyright: {data}
+                    <span className="font-cookie text-5xl gap-4">GenFarma</span>
+                    <p className='font-bold font-zain text-3xl'>
+                             Natália Gadelha | Copyright: {data}
                         </p>
-                    <p className='text-lg'>Acesse minhas redes sociais</p>
+                    <p className='font-zain text-3xl'>Acesse minhas redes sociais</p>
                     <div className='flex gap-2'>
                             <a href="https://www.linkedin.com/in/natalia-gadelha" target="_blank">
                                 <img

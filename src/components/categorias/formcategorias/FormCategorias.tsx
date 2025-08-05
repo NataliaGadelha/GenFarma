@@ -69,13 +69,13 @@ function FormCategorias() {
 
     return (
         <div className="container flex flex-col items-center justify-center mx-auto">
-            <h1 className="text-4xl text-center my-8 text-vermelho">
+            <h1 className="text-5xl text-center my-8 font-zain">
                 {id === undefined ? 'Cadastrar Categoria' : 'Editar Categoria'}
             </h1>
 
             <form className="w-1/2 flex flex-col gap-4" onSubmit={enviarCategoria}>
                 <div className="flex flex-col gap-2">
-                    <label htmlFor="descricao" className="text-cyan-400 font-semibold">Nome da Categoria: </label>
+                    <label htmlFor="descricao" className="text-cyan-400 text-2xl font-zain">Nome da Categoria: </label>
                     <input
                         type="text"
                         placeholder="Descreva aqui sua categoria"
@@ -84,7 +84,7 @@ function FormCategorias() {
                         value={categoria.nome}
                         onChange={atualizarEstado}
                     />
-                    <label htmlFor="descricao" className="text-cyan-400 font-semibold">Descrição da Categoria: </label>
+                    <label htmlFor="descricao" className="text-cyan-400 text-2xl font-zain">Descrição da Categoria: </label>
                     <input
                         type="text"
                         placeholder="Descreva aqui sua categoria"
@@ -95,7 +95,7 @@ function FormCategorias() {
                     />
                 </div>
                 <button
-                    className="w-1/3 flex items-center justify-between py-1.5 px-5 rounded-lg font-medium text-white bg-gradient-to-r from-cyan-400 to-cyan-300 hover:from-cyan-300 hover:to-cyan-400 shadow-sm mx-auto"
+                    className="font-zain text-2xl w-1/3 flex items-center justify-between py-1.5 px-5 rounded-lg font-medium text-white bg-gradient-to-r from-cyan-400 to-cyan-300 hover:from-cyan-300 hover:to-cyan-400 shadow-sm mx-auto"
                     type="submit"
                 >
                     {isLoading ? (
