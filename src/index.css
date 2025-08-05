@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Zain&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -5,10 +6,10 @@
     --color-azul-claro: #8CC9D2;
     --color-azul-medio: #1976D2;
     --color-vermelho: #CB292D;
-    --color-vermelho-imperial: #e5383b;
     --color-vermelho-light: #E5383B;
     --color-vermelho-claro: #ff4d6d;
     --color-cinza: #555555;
-}
+    --font-zain:"Zain", sans-serif;
+    --font-cookie: "Cookie", cursive;
 
-@theme {  --font-display: "Oswald", sans-serif; }
+}

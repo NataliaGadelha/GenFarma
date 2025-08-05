@@ -69,27 +69,27 @@ function FormCategorias() {
 
     return (
         <div className="container flex flex-col items-center justify-center mx-auto">
-            <h1 className="text-4xl text-center my-8">
+            <h1 className="text-4xl text-center my-8 text-vermelho">
                 {id === undefined ? 'Cadastrar Categoria' : 'Editar Categoria'}
             </h1>
 
             <form className="w-1/2 flex flex-col gap-4" onSubmit={enviarCategoria}>
                 <div className="flex flex-col gap-2">
-                    <label htmlFor="descricao">Nome da Categoria</label>
+                    <label htmlFor="descricao" className="text-cyan-400 font-semibold">Nome da Categoria: </label>
                     <input
                         type="text"
                         placeholder="Descreva aqui sua categoria"
                         name="nome"
-                        className="border-3 border-menta rounded p-2 focus:outline-none focus:border-ligth-green focus:ring-2 focus:ring-ligth-green"
+                        className="border-3 border-cyan-300 rounded p-2 focus:outline-none focus:border-cyan-200 focus:ring-2 focus:ring-cyan-200"
                         value={categoria.nome}
                         onChange={atualizarEstado}
                     />
-                    <label htmlFor="descricao">Descrição da Categoria</label>
+                    <label htmlFor="descricao" className="text-cyan-400 font-semibold">Descrição da Categoria: </label>
                     <input
                         type="text"
                         placeholder="Descreva aqui sua categoria"
                         name="descricao"
-                        className="border-3 border-menta rounded p-2 focus:outline-none focus:border-ligth-green focus:ring-2 focus:ring-ligth-green"
+                        className="border-3 border-cyan-300 rounded p-2 focus:outline-none focus:border-cyan-200 focus:ring-2 focus:ring-cyan-200"
                         value={categoria.descricao}
                         onChange={atualizarEstado}
                     />
